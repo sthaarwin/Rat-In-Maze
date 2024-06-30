@@ -78,7 +78,7 @@ int main() {
             cout << "No path found" << endl;
         }
 
-        // Deallocate memory
+
         for (int i = 0; i < n; i++) {
             delete[] arr[i];
             delete[] solArr[i];
